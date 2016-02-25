@@ -1,5 +1,5 @@
 body {
-  font-family: arial;
+  font-family: sans-serif;
 }
 
 h3 {
@@ -7,6 +7,6 @@ h3 {
   background-color: gray;
 }
 
-p {
-font-size: 12px; 
+article {
+  border: dashed black 1px;
 }
