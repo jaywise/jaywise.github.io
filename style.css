@@ -2,9 +2,10 @@ body {
   font-family: 'Open sans', sans-serif;
 }
 
-h3 {
+.entry-title {
   color: white;
   background-color: gray;
+  width: 300px;
 }
 
 article {
