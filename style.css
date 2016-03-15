@@ -3,8 +3,8 @@ body {
 }
 
 .entry-title {
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: black;
   display: inline-block;
   border: solid white 1px;
   padding: 4px;
