@@ -3,10 +3,11 @@ body {
 }
 
 .entry-title {
-  color: white;
-  background-color: 47476b;
+  color: black;
+  background-color: white;
   display: inline-block;
   border: solid white 1px;
+  padding: 4px;
 }
 
 article {
