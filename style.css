@@ -4,13 +4,15 @@ body {
 
 .entry-title {
   color: white;
-  background-color: 33ffff;
+  background-color: 47476b;
   display: inline-block;
 }
 
 article {
-  background-color: e6ffff;
+  background-color: 0059b3;
+  color: white;
   border: solid gray 1px;
   border-radius: 3px;
-  padding-top: 5px;
+  padding: 2px;
+  margin: 5px;
 }
