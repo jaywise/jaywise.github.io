@@ -28,8 +28,18 @@
 <iframe height='268' scrolling='no' src='//codepen.io/jweiss5/embed/WwpErX/?height=268&theme-id=0&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/jweiss5/pen/WwpErX/'>Meta-cognitive Dashboard  (v0.1)</a> by Josh (<a href='http://codepen.io/jweiss5'>@jweiss5</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
    <p>The arc is not actually interactive at this stage; the values that appear are hard-coded into the JS. So, the next step will be to build the form into a series of values that can be fed into the graph. With the arc chart, this would look like generating an arc section for each modality ticked, and then having a way for learners to adjust the proportionality of each learning modality to fit their own learner profile. Ideally, this would be done with tactile, grab-and expand-motions. First, however, I have to insert the basic functionality of having the graph values reflect the form values, and be responsive each time those values are adjusted (even after the first "submit", should a learner want to modify his or her response). My plan is to explore <i>highcharts</i> some more, but also look more deeply into the interactive capabilities of <i>d3.js</i></p>
-
   </article>
+ 
+  <article>
+   <h3 class="entry-title">March 25</h3>
+    <p>After working with some D3 tutorials and checking out the API more, I have a stroner understanding of the capabilities of D3 towards building interactive graphs and charts. The baked-in JQuery aspects do make for a conducive set of tools towards my purpose of generating graphical representations of student responses, and which can be manipulated in "real time" both with secondary numerical tweaks (i.e., "Are you sure your are a 30% visual learner? In your most recent learning cycle, you utilized visual leanring tools more than 70% of the time. Adjust the graph according to your current understanding of who you're becoming as a learner."). </p>
+    <br>
+    <p>That said, D3 might be a bit of overkill for some basic graphical representations; it is more suited to large, multi-faceted sets of data. I might leverage a simpler library like highcharts (or even the HTML5 canvas elemnt API, which I have been meaning to dig into more) for more lightweight interactive graphs. D3 could perhaps be better suited for "big picture", summative evaluations of learner journeys across multiple meta-cognitive check-in's.</p>
+    <br>
+    <p>For the time being, I've played around with proportionality graphs that are readily producible using the Raw D3 graph generator. Here is a sample that maps leaner modality proportionality (% of visual learning capability vs. interpersonal vs....):</p>
+    <svg width="847" height="500" xmlns="http://www.w3.org/2000/svg"><circle style="fill: rgb(191, 105, 105);"></circle><circle style="fill: rgb(174, 191, 105);"></circle><circle style="fill: rgb(105, 191, 139);"></circle><circle style="fill: rgb(105, 139, 191);"></circle><circle style="fill: rgb(174, 105, 191);"></circle><text text-anchor="middle" dy="4" style="font-size: 11px; font-family: Arial, Helvetica;"></text><text text-anchor="middle" dy="4" style="font-size: 11px; font-family: Arial, Helvetica;"></text><text text-anchor="middle" dy="4" style="font-size: 11px; font-family: Arial, Helvetica;"></text><text text-anchor="middle" dy="4" style="font-size: 11px; font-family: Arial, Helvetica;"></text><text text-anchor="middle" dy="4" style="font-size: 11px; font-family: Arial, Helvetica;"></text></svg>
+  </article>
+  
  </section>
 
 </body>
